@@ -36,8 +36,8 @@ let Enviar = function()
 
 let main = function()
 {
-    let butEnviar = document.getElementById("but_enviar")
-    butEnviar.addEventListener("click", Enviar)
+    let enviar = document.getElementById("enviar")
+    enviar.addEventListener("click", Enviar)
 }
 
 main()
