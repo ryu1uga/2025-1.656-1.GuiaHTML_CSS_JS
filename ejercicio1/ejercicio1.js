@@ -7,6 +7,10 @@ let Enviar = function()
     let error2 = document.getElementById("error2")
     let error3 = document.getElementById("error3")
     let error4 = document.getElementById("error4")
+    error1.innerText = ""
+    error2.innerText = ""
+    error3.innerText = ""
+    error4.innerText = ""
     if (nombre.value == "" || email.value == "" || mensaje.value == "")
     {
         if (nombre.value == "")
@@ -32,6 +36,9 @@ let Enviar = function()
     {
         console.log("Se envió correctamente")
     }
+    nombre.value = ""
+    email.value = ""
+    mensaje.value = ""
 }
 
 let main = function()
