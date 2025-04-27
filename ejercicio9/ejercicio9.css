@@ -1,0 +1,11 @@
+.boton
+{
+    height: 100px;
+    width: 100%;
+    font-size: 2rem;
+}
+
+h1, #texto
+{
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+.boton
+{
+    height: 35px;
+    width: 55px;
+    font-size: 2rem;
+    background-color: deepskyblue;
+    border-radius: 5px;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+h1, #texto
+{
+    text-align: center;
+}

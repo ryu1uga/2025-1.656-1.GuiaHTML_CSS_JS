@@ -32,10 +32,9 @@ let Enviar = function()
         error4.innerText = "El email ingresado no es válido"
         return
     }
-    else
-    {
-        console.log("Se envió correctamente")
-    }
+    
+    console.log("Se envió correctamente")
+    
     nombre.value = ""
     email.value = ""
     mensaje.value = ""

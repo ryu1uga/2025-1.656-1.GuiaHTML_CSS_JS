@@ -1,1 +1,20 @@
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+let SeleccionarBoton = function(t, x, y)
+{
+    
+}
+
+let main = function()
+{
+    for (let x = 1; x <= 8; x++)
+    {
+        for (let y = 1; y <= 8; y++)
+        {
+            let botonIzquierda = document.getElementsById("t1 x" + x + " y" + y)
+            let botonDerecha = document.getElementsById("t2 x" + x + " y" + y)
+            
+            botonIzquierda.
+        }
+    }
+}
+
+main()
